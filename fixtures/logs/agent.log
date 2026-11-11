@@ -1,0 +1,3 @@
+2026-01-01 INFO synthetic startup line
+2026-01-01 INFO handled request for testa@example.com (subj-test-a)
+2026-01-01 INFO handled request for other@example.com

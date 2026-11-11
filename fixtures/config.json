@@ -1,0 +1,45 @@
+{
+  "stores": [
+    {
+      "name": "conversations",
+      "type": "sqlite",
+      "path": "conversations.sqlite",
+      "table": "conversations",
+      "retention_days": 90,
+      "retention_basis": "demo policy: chat data kept 90 days",
+      "deletion_test_safe": true
+    },
+    {
+      "name": "memory-export",
+      "type": "jsonl",
+      "path": "memory.jsonl",
+      "retention_days": 90,
+      "retention_basis": "demo policy: memory exports kept 90 days",
+      "deletion_test_safe": true
+    },
+    {
+      "name": "vector-store",
+      "type": "json",
+      "path": "vectors.json",
+      "retention_days": 90,
+      "retention_basis": "demo policy: RAG chunks kept 90 days",
+      "deletion_test_safe": false
+    },
+    {
+      "name": "logs",
+      "type": "textdir",
+      "path": "logs",
+      "retention_days": null,
+      "retention_basis": "no declared retention in demo",
+      "deletion_test_safe": true
+    },
+    {
+      "name": "missing-export",
+      "type": "jsonl",
+      "path": "does-not-exist.jsonl",
+      "retention_days": 90,
+      "retention_basis": "demo policy",
+      "deletion_test_safe": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "id": "vec-1",
+      "subject_id": "subj-test-a",
+      "email": "testa@example.com",
+      "chunk": "Synthetic RAG chunk mentioning Test Subject A and testa@example.com.",
+      "created_at": "2026-11-06T15:39:31.833594+00:00"
+    },
+    {
+      "id": "vec-2",
+      "subject_id": "subj-other",
+      "chunk": "Unrelated synthetic chunk.",
+      "created_at": "2026-11-06T15:39:31.833594+00:00"
+    }
+  ]
+}
